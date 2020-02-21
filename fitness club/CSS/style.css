@@ -1,0 +1,298 @@
+body{
+    padding:0px;
+    margin:0px;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Slider */
+
+.wrapper{position: relative;}
+
+.slide {
+    height: 88vh;                                    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slide-1{
+    background-image: url('../img/traning.jpg');
+    font-family: 'Fjalla One', serif;
+    text-align: center;
+    padding-top: 450px;
+    padding-right: 40px;
+    color:rgb(226, 232, 241);
+    text-shadow: 4px 4px 4px #000000;
+}
+.slide-1 p{
+    font-size:30px;
+    padding-left: 730px;
+}
+.slide-2{
+    background-image: url('../img/slider2.jpg');
+    font-family: 'Fjalla One', serif;
+    text-align: center;
+    padding-top: 450px;
+    padding-right: 40px;
+    color:#3B5998;
+    text-shadow: 2px 2px 4px #000000;
+}
+.slide-3{
+    background-image: url('../img/slider3.jpg');
+    font-family: 'Fjalla One', serif;
+    text-align: center;
+    padding-top: 450px;
+    padding-right: 40px;
+    color:white;
+    text-shadow: 2px 2px 4px #000000;
+}
+.slide-4{
+    background-image: url('../img/gym-owner.jpg');
+    font-family: 'Fjalla One', serif;
+    text-align: center;
+    padding-top: 450px;
+    padding-right: 40px; 
+    color:rgb(17, 238, 209);
+    text-shadow: 2px 4px 4px #000000;
+}
+
+.slide-content{
+    font-size: 40px;
+}
+
+.slide-content p{
+    font-size: 25px;
+}
+.arrow{
+    position: absolute;
+    top:50%;
+    cursor: pointer;
+    margin-top: -35px;
+    border-style: solid;
+    height:0;
+    width:0;
+}
+
+#left-arrow{
+    border-width: 30px 40px 30px 0;
+    border-color: transparent white transparent transparent;
+    left:0;
+    margin-left: 30px;  
+}
+
+#right-arrow{
+    border-width: 30px 0 30px 40px;
+    border-color: transparent transparent transparent white;
+    right:0;
+    margin-right: 30px;  
+}
+
+/* Grid */
+#grid{ padding-bottom: 30px;}
+
+.grid-head{
+    text-align: center;
+    padding-top: 65px;
+}
+
+.grid-head h1{
+    font-size: 40px;
+    padding-bottom: 30px; 
+}
+
+.grid-head p{
+    padding-left:50px;
+    padding-right:50px;
+    padding-bottom: 40px;
+    color:gray;
+    font-weight:450;
+    text-align: left;
+}
+
+.grid-head h4{
+    font-size: 28px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.col i{
+    color:lightsalmon;
+    margin-bottom:20px;
+   
+}
+
+.col i:hover{
+    color:lightcoral;
+}
+#process p{
+    color: gray;
+}
+
+/* Form */
+#form{
+    padding-top:40px;
+    background-image: url("../img/form-bg.jpg");  
+    background-repeat:no-repeat;
+    background-size:cover;  
+    background-attachment: fixed;
+}
+
+#register{ padding-bottom: 14px;}
+
+#form h2{ padding-bottom: 20px;}
+
+/* BMI */
+#bmi{
+    padding-top: 50px;
+    background-image: url("../img/bmi-bg.png");
+    background-attachment: fixed;
+    background-position:top center; 
+}
+#bmi h3{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#bmiOutput{
+    font-size: large;
+}
+#bmi col {
+    font-size: small;
+}
+/*
+@media only screen and (max-width: 600px){
+  /*  .slide-1{
+        background-image: url('../img/slider1.jpg');
+        font-family: 'Merriweather', serif;
+        color:darkorange;
+        padding-left:20px;
+        font-size:40px;
+        text-align: center;
+        
+    }
+
+    .slide-2{
+        background-image: url('../img/slider2.jpg');
+        font-family: 'Fjalla One', serif;
+        text-align: right;
+        padding-top: 450px;
+        padding-right: 40px;
+        font-size:40px;
+        color:#3B5998;
+    }
+
+    .slide-3{
+        background-image: url('../img/slider3.jpg');
+        font-family: 'Exo', serif;
+        text-align: left;
+        padding-top: 20px;
+        padding-left: 50px;
+        font-size:30px;
+       
+        color:white;
+    }
+  
+    .slide-4{
+        background-image: url('../img/slider4.jpg');
+        font-family: 'Lato', serif;
+        text-align: left;
+        padding-top: 400px;
+        padding-left: 20px;
+        color:rgba(11, 86, 105, 0.829);
+        font-weight:bold;
+        font-size:25px;
+        
+    } */
+    /*
+
+    .slide-content{
+        font-size: 30px;
+    }
+    .slide-content p{
+        font-size: 20px;
+        text-align: left;
+        margin-left: -145px;
+        
+       
+    } 
+    .grid-head h1{
+        font-size: 30px;
+        padding-bottom: 30px; 
+    }
+
+    .grid-head h4{
+        font-size: 25px;
+        padding-top: 10px;
+        padding-bottom: 50px;
+    }
+    
+    */
+   /* 
+    .col  h5{
+  
+    font-size: 70%;
+    }
+    .col  p{
+  
+        font-size: 60%;
+        }
+
+        .form-control {
+            font-size: 10px;
+
+        }
+}
+
+/* tablet media
+
+@media only screen and (min-width: 768px){
+    .slide-content{
+        font-size: 30px;
+    }
+    .slide-content p{
+        font-size: 20px;
+        text-align: left;
+        margin-left: -145px;
+        
+       
+    } 
+    .grid-head h1{
+        font-size: 30px;
+        padding-bottom: 30px; 
+    }
+
+    .grid-head h4{
+        font-size: 25px;
+        padding-top: 10px;
+        padding-bottom: 50px;
+    }
+    
+
+    
+    .col  h5{
+  
+    font-size: 70%;
+    }
+    .col  p{
+  
+        font-size: 60%;
+        }
+
+        .form-control {
+            font-size: 10px;
+
+        }
+  
+
+
+} 
+*/
+.carousel {
+  width:100%;
+  height:510px;
+  overflow: hidden;
+}
+
+.carousel img {
+
+  height: 510px;
+
+}
